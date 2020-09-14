@@ -49,6 +49,10 @@
 
     git checkout -b <name> or git switch -c <name>
     
+5. 删除分支    
+
+    git branch -d <name>
+    
 ### git 存储
 
     git stash save "save message"  : 执行存储时，添加备注，方便查找，只有git stash 也要可以的，但查找时不方便识别。
