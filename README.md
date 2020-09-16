@@ -73,3 +73,6 @@
 
     git stash show -p : 显示第一个存储的改动，如果想显示其他存存储，命令：git stash show  stash@{$num}  -p ，比如第二个：git stash show  stash@{1}  -p
 
+### 复制一个特定的提交到当前分支
+
+    git cherry-pick <commit>
